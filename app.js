@@ -1,14 +1,14 @@
-nomeAmigo = document.getElementById("amigo").value;
+let nomeAmigo = document.getElementById("amigo").value;
 
-listaNomes = [];
+let listaNomes = [];
 
 function adicionarAmigo()
 {
-    let nomeAmigo = document.getElementById("amigo").value;
+    nomeAmigo = document.getElementById("amigo").value;
     $listaNomes.push(nomeAmigo);
     console.log($listaNomes);
 
-    let nomeAmigo = document.getElementById("amigo").value.trim;
+    nomeAmigo = document.getElementById("amigo").value.trim;
     
     if(nomeAmigo == "")
     {
