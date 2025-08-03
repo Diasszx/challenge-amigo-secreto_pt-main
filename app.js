@@ -2,15 +2,20 @@ let nomeAmigo = document.getElementById("amigo").value;
 
 let listaNomes = [];
 
-function adicionarAmigo()
+function verificarNome()
 {
-    nomeAmigo = document.getElementById("amigo").value;
-    
     if(nomeAmigo == "")
     {
         alert("Digite um nome válido!");
         return;
     }
+}
+
+function adicionarAmigo()
+{
+    nomeAmigo = document.getElementById("amigo").value;
+    
+    verificarNome(nomeAmigo);
 
     listaNomes.push(nomeAmigo);
     document.getElementById("amigo").value = "";
@@ -30,4 +35,20 @@ function atualizarLista()
         ul.appendChild(li);
     } 
 }
+
+function gerarNumeroAleatorio()
+{
+    let numeroEscolhido = Math.floor(Math.random() * listaNomes.length);
+    return numeroEscolhido;
+}
+
+function sortearAmigo()
+{
+    let ul = document.getElementById("resultado");
+    ul.innerHTML = "";
+
+    ul.innerHTML = `O amigo secreto sorteado é: ${listaNomes[gerarNumeroAleatorio()]}`;
+    console.log(gerarNumeroAleatorio());
+}
+
 
