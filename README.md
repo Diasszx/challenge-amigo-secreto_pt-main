@@ -34,4 +34,4 @@ Este projeto foi desenvolvido para treinar **JavaScript, HTML e CSS**, além de 
 - **Mensagem** mostrando o nome sorteado.
 
 📷 **Demonstração:**
-![Demonstração]([https://imgur.com/80vZyV3](https://i.imgur.com/80vZyV3.gif))
+![Demonstração](https://i.imgur.com/80vZyV3.gif))
