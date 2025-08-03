@@ -17,7 +17,7 @@
 * [Conclusão](#conclusão)
 
 ## 📜 Descrição do Projeto
-O ** Challenge Amigo Secreto** é uma aplicação web simples que permite:
+O **Challenge Amigo Secreto** é uma aplicação web simples que permite:
 - Adicionar nomes de participantes.
 - Exibir a lista de amigos adicionados.
 - Sortear aleatoriamente um amigo secreto.
@@ -32,3 +32,6 @@ Este projeto foi desenvolvido para treinar **JavaScript, HTML e CSS**, além de 
 - **Exibir lista** atualizada automaticamente.
 - **Sortear** um amigo secreto de forma aleatória.
 - **Mensagem** mostrando o nome sorteado.
+
+📷 **Demonstração:**
+![Demonstração](https://imgur.com/80vZyV3)
