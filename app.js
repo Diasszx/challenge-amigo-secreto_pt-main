@@ -1,11 +1,17 @@
-nomeAmigo = document.getElementById("amigo").value;
+let nomeAmigo = document.getElementById("amigo").value;
 
-listaNomes = [];
+let listaNomes = [];
 
 function adicionarAmigo()
 {
-    let nomeAmigo = document.getElementById("amigo").value;
+    nomeAmigo = document.getElementById("amigo").value;
     
+    if(nomeAmigo == "")
+    {
+        alert("Digite um nome válido!");
+        return;
+    }
+
     listaNomes.push(nomeAmigo);
     document.getElementById("amigo").value = "";
     
