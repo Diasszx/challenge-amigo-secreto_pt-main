@@ -5,10 +5,6 @@ let listaNomes = [];
 function adicionarAmigo()
 {
     nomeAmigo = document.getElementById("amigo").value;
-    $listaNomes.push(nomeAmigo);
-    console.log($listaNomes);
-
-    nomeAmigo = document.getElementById("amigo").value.trim;
     
     if(nomeAmigo == "")
     {
